@@ -30,9 +30,9 @@ console.log(myCar.color)
 
 //1. Create a function that takes in a number of two-pointers (shots made that count as 2 points each) and three-pointers (shots made that count as 3 points each) made and returns a basketball team's total score. Invoke the function and console.log the results.
 
-function basketball(twoPoints, threePoints) {
+function basketball(numb1, numb2) {
     
-    const totalPoints = (twoPoints * 2) + (threePoints * 3)
+    const totalPoints = (numb1 * 2) + (numb2 * 3)
     console.log(totalPoints)
 }
 
